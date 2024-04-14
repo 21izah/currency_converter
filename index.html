@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="containerColumn" id="containerColumn">
+        <h1 class="containerHeading" id="containerHeading">
+          Currency Converter
+        </h1>
+        <div class="xChange1" id="xChange1">
+          <select class="xc" id="currency1">
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+            <option value="JPY">JPY</option>
+            <option value="USD">USD</option>
+          </select>
+          <input
+            class="input1"
+            type="number"
+            id="worth-first"
+            value="1"
+            min="0"
+          />
+        </div>
+        <div class="xChange1" id="xChange2">
+          <select class="xc1" id="currency2">
+            <option value="JPY">JPY</option>
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+            <option value="AUD">AUD</option>
+            <option value="USD">USD</option>
+          </select>
+          <input
+            class="input2"
+            type="number"
+            id="worth-second"
+            min="0"
+            disabled
+          />
+        </div>
+        <p class="details" id="details">1 USD = 135.4535 JPY</p>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
